@@ -1,0 +1,14 @@
+.git
+*.json
+.nvmrc
+README.md
+.gitignore
+.npmignore
+.prettierrc
+.scannerwork
+.eslintcache
+.eslintignore
+.editorconfig
+.prettierignore
+node_modules
+__snapshots__
