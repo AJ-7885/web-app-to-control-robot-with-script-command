@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-AxjAm htywmC"
+>
+  <div
+    className="sc-AxirZ fgsdab"
+  >
+    <img
+      alt="robot"
+      className="sc-AxiKw tJrRc"
+      src="robot.png"
+    />
+  </div>
+</div>
+`;

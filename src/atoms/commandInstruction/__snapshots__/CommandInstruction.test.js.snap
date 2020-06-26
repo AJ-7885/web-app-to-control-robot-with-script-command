@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-AxjAm jgCQpp"
+>
+  Commands: 
+  <br />
+  <br />
+  1. FORWARD "NUMBER VALUE"
+  <br />
+  2. WAIT
+  <br />
+  3. POSITION "X value" "Y value" "direction (WEST,EAST,NORTH,SOUTH)"
+  <br />
+  4. LEFT , RIGHT , UP . DOWN
+  <br />
+  5. TURNAROUND
+</div>
+`;

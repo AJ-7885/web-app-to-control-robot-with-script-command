@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-Axmtr ipEZKn"
+>
+  <div
+    className="sc-AxjAm gDOrEr"
+  >
+    <img
+      alt="logo"
+      className="sc-AxirZ ktnnZK"
+      src="logo.svg"
+    />
+  </div>
+  <div
+    className="sc-AxmLO dXPOuP"
+  >
+    <div
+      className="sc-fzozJi kkxoqs"
+    >
+      <textarea
+        className="sc-fzoLsD eWPVGl"
+        onChange={[Function]}
+        rows="10"
+        value="POSITION 1 1 EAST
+FORWARD 3
+WAIT
+TURNAROUND
+FORWARD 1
+RIGHT
+FORWARD 2"
+      />
+      <button
+        className="sc-fzpans eqyVxq"
+        onClick={[Function]}
+      >
+        Start
+      </button>
+      <div
+        className="sc-AxiKw jjJxfu"
+      >
+        Commands: 
+        <br />
+        <br />
+        1. FORWARD "NUMBER VALUE"
+        <br />
+        2. WAIT
+        <br />
+        3. POSITION "X value" "Y value" "direction (WEST,EAST,NORTH,SOUTH)"
+        <br />
+        4. LEFT , RIGHT , UP . DOWN
+        <br />
+        5. TURNAROUND
+      </div>
+    </div>
+    <div
+      className="sc-AxhCb CoMqJ"
+    >
+      <div
+        className="sc-AxhUy iacnrW"
+      >
+        <img
+          alt="robot"
+          className="sc-AxgMl dTIslH"
+          src="robot.png"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-fzplWN ldxkaA"
+  />
+  <div
+    className="sc-AxheI fUYOYB"
+  />
+</div>
+`;
