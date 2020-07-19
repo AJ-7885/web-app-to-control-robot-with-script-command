@@ -37,6 +37,7 @@ function commandProcessEngine(
     if (processQueue.commands.length > 0) {
       switch (processQueue.commands[0][0]) {
         case 'POSITION':
+          processQueue.commands[0].filter((item) => item !== "");
           posX = parseInt(processQueue.commands[0][1]) * gridGab;
           posY = parseInt(processQueue.commands[0][2]) * gridGab;
           posDirection =

@@ -33,7 +33,10 @@ function App() {
   );
 
   function startHandler() {
-    const commandListTemp = commands.map((command) => command.split(' '));
+    const commandListTemp = commands.map((command) =>
+      command.split(' ').filter((item) => item !== '')
+    );
+
     setProcessQueue({
       ...processQueue,
       step: commands.length,
